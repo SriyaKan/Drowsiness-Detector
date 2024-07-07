@@ -5,28 +5,20 @@ This project implements a drowsiness detection system using computer vision. The
 Installation
 Clone the repository:
 
-sh
-Copy code
 git clone https://github.com/yourusername/drowsiness-detection.git
 cd drowsiness-detection
-Create and activate a virtual environment (optional but recommended):
 
-sh
-Copy code
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install the required dependencies:
 
-sh
-Copy code
 pip install -r requirements.txt
+
 Usage
 Ensure your webcam is connected and working.
 
 Run the drowsiness detection script:
 
-sh
-Copy code
 python drowsiness_detection.py
 The system will start capturing video from the webcam and monitoring for drowsiness. If drowsiness is detected, an alarm will sound to alert the driver.
 
@@ -38,5 +30,6 @@ Create a new branch (git checkout -b feature-branch)
 Make your changes and commit them (git commit -am 'Add new feature')
 Push to the branch (git push origin feature-branch)
 Create a new Pull Request
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
