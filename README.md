@@ -1,29 +1,7 @@
 # Drowsiness-Detector
 
-This project implements a drowsiness detection system using computer vision. The system aims to detect when a driver is drowsy and alert them to prevent accidents.
+This project implements a drowsiness detection system using computer vision. The system aims to detect when a driver is drowsy and alert them to prevent accidents in real-time. Drowsiness detection is crucial for road safety, as drowsy driving can lead to severe accidents.
 
-Table of Contents
-Overview
-Features
-Requirements
-Installation
-Usage
-Contributing
-License
-Acknowledgements
-Overview
-Drowsiness detection is crucial for road safety, as drowsy driving can lead to severe accidents. This project utilizes a combination of computer vision techniques and machine learning algorithms to monitor a driver's facial features and detect signs of drowsiness in real-time.
-
-Features
-Real-time monitoring of the driver's facial features
-Detection of drowsiness based on eye aspect ratio and mouth aspect ratio
-Alerts the driver through an alarm when drowsiness is detected
-Requirements
-Python 3.7+
-OpenCV
-dlib
-imutils
-scipy
 Installation
 Clone the repository:
 
